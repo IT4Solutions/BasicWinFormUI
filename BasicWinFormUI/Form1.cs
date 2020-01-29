@@ -15,6 +15,7 @@ namespace BasicWinFormUI
         public Form1()
         {
             InitializeComponent();
+            headerLabel.Text += " - Today:"+ System.DateTime.Now;
         }
     }
 }
